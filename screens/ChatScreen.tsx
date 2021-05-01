@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FlatList, StyleSheet } from 'react-native';
-import { Text, View } from '../components/Themed';
+import { View } from '../components/Themed';
 import ChatListItem from '../components/ChatListItem';
 import chatRooms from '../data/ChatRooms'
 
