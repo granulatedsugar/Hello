@@ -14,6 +14,7 @@ import useColorScheme from '../hooks/useColorScheme';
 import ChatScreen from '../screens/ChatScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { MainTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+import NotFoundScreen from '../screens/NotFoundScreen';
 
 const MainTab = createMaterialTopTabNavigator<MainTabParamList>();
 
@@ -39,7 +40,7 @@ export default function MainTabNavigator() {
         }}>
       <MainTab.Screen
         name="Camera"
-        component={TabOneNavigator}
+        component={NotFoundScreen}
         options={{
           tabBarIcon: ({ color }) => <Fontisto name="camera" color={color} size={18} />,
           tabBarLabel: () => null
