@@ -34,7 +34,7 @@ const ChatListItem = (props: ChatListItemProps) => {
 
             <View style={styles.midContainer}>
                 <Text style={styles.username}>{user.name}</Text>
-                <Text style={styles.lastMessage} numberOfLines={1} ellipsizeMode="tail">{user.name} : {chatRoom.lastMessage.content}</Text>
+                <Text style={styles.lastMessage} numberOfLines={1} ellipsizeMode="tail">{chatRoom.lastMessage.content}</Text>
             </View>
             
             </View>

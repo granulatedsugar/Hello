@@ -6,12 +6,12 @@ export default {
 		imageUri: 'https://images.unsplash.com/photo-1507850806116-98dd31fde6f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
 	}, {
 		id: 'u2',
-		name: 'Lukas',
+		name: 'Nikko',
 		imageUri: 'https://images.unsplash.com/photo-1601455763557-db1bea8a9a5a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1572&q=80',
 	}],
 	messages: [{
 		id: 'm1',
-		content: 'How are you, Lukas!',
+		content: 'How are you, Nikko!',
 		createdAt: '2021-04-30T23:48:00.000Z',
 		user: {
 			id: 'u1',
@@ -23,7 +23,7 @@ export default {
 		createdAt: '2021-04-03T14:49:00.000Z',
 		user: {
 			id: 'u2',
-			name: 'Lukas',
+			name: 'Nikko',
 		},
 	}, {
 		id: 'm3',
@@ -31,7 +31,7 @@ export default {
 		createdAt: '2020-10-03T14:49:40.000Z',
 		user: {
 			id: 'u2',
-			name: 'Lukas',
+			name: 'Nikko',
 		},
 	}, {
 		id: 'm4',
@@ -55,7 +55,7 @@ export default {
 		createdAt: '2020-10-03T14:49:00.000Z',
 		user: {
 			id: 'u2',
-			name: 'Lukas',
+			name: 'Nikko',
 		},
 	}, {
 		id: 'm7',
